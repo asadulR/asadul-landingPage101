@@ -3,3 +3,31 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* intro section */
+.intro{
+    background-color: #F5F7FC;
+}
+
+h2, h5{
+    color: #071E55;
+    font-weight: bold;
+}
+
+
+.img-icon {
+    font-size: 5rem;
+}
+
+
+.trust {
+    background-color: #221f2b;
+}
+
+.animate{
+    transition: transform 2s;
+}
+.animate:hover {
+    transform: scale(1.1);
+}
