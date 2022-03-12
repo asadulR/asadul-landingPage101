@@ -6,7 +6,7 @@
 
 
 /* intro section */
-.intro{
+.intro, .agency-fact {
     background-color: #F5F7FC;
 }
 
@@ -19,7 +19,9 @@ h2, h5{
 .img-icon {
     font-size: 5rem;
 }
-
+.fun-icon {
+    font-size: 3rem;
+}
 
 .trust {
     background-color: #221f2b;
@@ -30,4 +32,10 @@ h2, h5{
 }
 .animate:hover {
     transform: scale(1.1);
+}
+.animation2 {
+    transition: transform 1.5s;
+}
+.animation1:hover .animation2{
+    transform: scale(1.6);
 }
