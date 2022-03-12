@@ -60,7 +60,7 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                       </li>
                     </ul>
                     <div class="d-flex align-items-center">
@@ -424,7 +424,7 @@
         <section id="pricing" class="py-5 my-5">
             <div class="container">
                 <h2 class="text-center mb-5 pb-4">Pricing for every business, at any stage</h2>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-3">
                     <div class="col">
                       <div class="card shadow hovered-bb pb-4">
                         <div class="text-center pt-4">
@@ -445,9 +445,8 @@
                     </div>
                     <div class="col">
                         <div class="card shadow position-relative hovered-bb pb-4">
-                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            <span class="position-absolute translate-middle badge rounded-pill bg-danger">
                                 Hot
-                                <span class="visually-hidden">unread messages</span>
                             </span>
                             <div class="text-center pt-4">
                                 <h5>STANDARD</h5>
@@ -544,7 +543,155 @@
                 </div>
             </div>
         </section>
+
+        <!-- CEO -->
+        <section class="ceo my-5 py-5">
+            <div class="container">
+                <div class="row py-5 align-items-center">
+                    <div class="col-md-6 mb-sm-5 px-3 text-center">
+                        <p class="ceo-says"><i>“People who succeed in business aren't afraid to hear feedback from their customers - they actually thrive from it.”</i></p>
+                        <h5>Johanna S. Richardson</h5>
+                        <p>CEO, Web Developer</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="img-fluid" src="images/my-bg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------------------------------
+             contact 
+        --------------------------------------------------------------------------------->
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="text-center fs-1">Get in touch</h2>
+
+                <form class="p-md-5">
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            First name
+                          <input type="text" class="form-control" placeholder="Enter your first name" aria-label="First name" required>
+                        </div>
+                        <div class="col-md-6">
+                            Last name
+                          <input type="text" class="form-control" placeholder="Enter your last name" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="row mb-3 g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label" >Email</label>
+                        <input type="email" class="form-control" id="inputEmail3" required placeholder="Enter your email">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <input type="password" class="form-control" required id="inputPassword3" placeholder="Enter your password">
+                      </div>
+                    </div>
+
+                    <div class="row g-3">
+                          <div class="col-md-3">
+                            <label for="validationDefault0" class="form-label">Country</label>
+                            <input type="text" class="form-control" id="validationDefault0" required>
+                          </div>
+                          <div class="col-md-3">
+                            <label for="validationDefault03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationDefault03" required>
+                          </div>
+                          <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">State</label>
+                            <select class="form-select" id="validationDefault04" required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="col-md-3">
+                            <label for="validationDefault05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationDefault05" required>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                              <label class="form-check-label" for="invalidCheck2">
+                                Agree to terms and conditions
+                              </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row mb-3">
+                      <!-- <div class="col-sm-10">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword3">
+                      </div> -->
+                    <!-- </div> -->
+                    <fieldset class="row my-3">
+                      <legend class="col-form-label col-sm-2 pt-0">Choose options</legend>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">
+                            First radio
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                            Second radio
+                          </label>
+                        </div>
+                        <div class="form-check disabled">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                          <label class="form-check-label" for="gridRadios3">
+                            Third disabled radio
+                          </label>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <div class="row mb-3">
+                      <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck1">
+                          <label class="form-check-label" for="gridCheck1">
+                            Example checkbox
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mb-3 col-md-8">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"placeholder="Write your message"></textarea>
+                    </div>
+                    <div class="text-center my-5">
+                        <button type="submit" class="btn btn-primary px-5 py-2 mt-5">Sign-up</button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
+    <!----------------------------------------------------
+         footer area
+    --------------------------------------------------  -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row my-5 align-items-center">
+                <div class="col-lg-4">
+                    <p><i class="fa-solid fa-copyright me-2"></i>2022 Asadul. Developed by <a style="text-decoration: none; font-weight: 800;" href="https://github.com/asadulR" target="_blank" rel="noopener noreferrer">asadulR</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact with me</h5>
+                    <p style="color: gray;" class="mb-0"><i class="fa-solid fa-location-dot me-2 text-success"></i>Dhaka Bangladesh</p>
+                    <p class="mb-0"><a style="text-decoration: none; color: gray;" href="mailto:asad1252001@gmail.com"><i class="fa-solid fa-at me-2 text-primary"></i> asad1252001@gmail.com</a></p>
+                    <p><a style="text-decoration: none; color: gray;" href="tel:+8801786414966"><i class="fa-solid fa-phone me-2 text-success"></i> 01786414966</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <p><a href="mailto:asad1252001@gmail.com"><i class="fa-solid fa-envelope fs-2 text-success me-2"></i></a><a href="https://github.com/asadulR" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fs-2 text-dark me-2"></i></a> <a href="https://github.com/asadulR" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fs-2 text-primary me-2"></i></a><a href="https://github.com/asadulR" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fs-2 text-primary"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- bootstrap js cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

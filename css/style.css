@@ -6,7 +6,7 @@
 
 
 /* intro section */
-.intro, .agency-fact, .we-are, #features {
+.intro, .agency-fact, .footer, .we-are, #features {
     background-color: #F5F7FC;
 }
 
@@ -58,4 +58,22 @@ h2, h5{
 
 .hovered-bb:hover{
     border-bottom: 3px blue solid;
+}
+
+.badge {
+    left: 100;
+    right: 0;
+}
+
+
+
+
+/* ceo-says */
+
+
+
+.ceo-says{
+    font-size: 1.5rem;
+    color: gray;
+
 }
