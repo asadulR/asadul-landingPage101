@@ -6,7 +6,7 @@
 
 
 /* intro section */
-.intro, .agency-fact {
+.intro, .agency-fact, .we-are, #features {
     background-color: #F5F7FC;
 }
 
@@ -38,4 +38,24 @@ h2, h5{
 }
 .animation1:hover .animation2{
     transform: scale(1.6);
+}
+
+
+
+
+
+
+
+
+
+
+.gold-star {
+    color: gold;
+    font-size: 1rem;
+    margin: 0 3px;
+}
+
+
+.hovered-bb:hover{
+    border-bottom: 3px blue solid;
 }
