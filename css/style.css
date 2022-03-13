@@ -77,3 +77,23 @@ h2, h5{
     color: gray;
 
 }
+
+.control-width {
+    max-width: 400px;
+
+}
+
+
+
+
+#absul-display{
+    box-shadow: 5px 8px 15px gray;
+    border-radius: 10px;
+    color: white;
+    background-color: #221f2b;
+    padding: 50px 20px;
+    position: absolute sticky center;
+    
+    /* left: 20%;
+    right: 20%; */
+}

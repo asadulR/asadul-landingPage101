@@ -64,25 +64,50 @@
                       </li>
                     </ul>
                     <div class="d-flex align-items-center">
-                        <a class="me-3 text-black" style="text-decoration: none;" href="#"><i class="fa-regular fa-user"></i> Login</a>
-                        <button class="btn btn-primary"><a style="text-decoration: none; color: white;" href="#">Sign-up</a></button>
+                        <a onclick="" class="me-3 btn btn-outline-primary" style="text-decoration: none;" href="/html/login.html"><i class="fa-regular fa-user"></i> Login</a>
+                        <button class="btn btn-primary"><a style="text-decoration: none; color: white;" href="#contact">Sign-up</a></button>
                     </div>
                   </div>
                 </div>
               </nav>
         </section>
+        <!-- <section id="top-login">
+            <div class="container">
+                <div id="absul-display" class="row mt-5 control-width mx-auto">
+                    <h5>Login</h5>
+                    <div class="col-12">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label" >Email</label>
+                        <input type="email" class="form-control" id="input-nav-email" required placeholder="Enter your email">
+                        <h5 id="nav-worng-email" class="text-center d-none text-danger fs-6">Please provide a valid email address.</h5>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <input type="password" class="form-control" required id="input-nav-password" placeholder="Enter your password">
+                        <h5 id="worng-password" class="text-center d-none text-danger fs-6">Please provide a valid password.</h5>
+                    </div>
+                    <span id="passwordhelpline-top" class="form-text">
+                        Must be 8 letter with at least a symble, upper and lower case letters and a number.
+                    </span>
+                    <div class= "text-center mt-4"><button onclick="navLoginBtn()" class= "btn btn-primary px-4">Login</button></div>
+                </div>
+            </div>
+        </section> -->
     </header>
 <!-- Main area -->
     <main>
+        
         <section class="intro">
             <div class="container">
                 <div class="row align-items-center justify-content-between py-5">
                     <div class="col-lg-6 mb-md-5">
                         <h1 class="fw-bold mb-4">Discover The Wold's Most <br> Advanced Online Tool <i class="fa-regular fa-comments text-success"></i></h1>
                         <h4 class="mb-4 fs-5">Track and analyze all your data in one central location.</h4>
-                        <div class="input-group mb-5 shadow">
-                            <input type="text" class="form-control py-3" placeholder="Enter Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-danger px-4" type="button" id="button-addon2">GET STARTED</button>
+                        <div class="input-group mb-2 shadow">
+                            <input type="text" id="discover-email-input" class="form-control py-3" placeholder="Enter Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-danger px-4" type="button" id="button-addon2">GET STARTED</button> 
+                        </div>
+                        <div class="mb-5">
+                            <h5 id="worng-email-top" class="d-none text-danger fs-6">Please provide a valid email address.</h5>
                         </div>
                         <p><span class="me-4"><i class="fa-solid fa-circle-check text-primary"></i> Free 30-Day Tria</span> <span><i class="fa-solid fa-circle-check text-primary"></i> Money Back Guarantee</span></p>
                     </div>
@@ -260,12 +285,15 @@
                         <p><i class="fa-solid fa-circle-check text-primary"></i> Quias netus magni netsum qui ratione sequi.</p>
                         <p><i class="fa-solid fa-circle-check text-primary"></i> Venis ratione sequi netus enim tempor magni.</p>
                         <p><i class="fa-solid fa-circle-check text-primary"></i> Enim ipsam netus voluptatem voluptas.</p>
-                        <button class="btn btn-primary mt-5">Discover More</button>
+                        <button onclick="loginToDiscover()" class="btn btn-primary mt-5" id="discover-btn">Discover More</button>
                     
                     </div>
                     <div class="col-12 col-md-6 text-center">
                         <img class="img-fluid" src="images/digital-marketing.png" alt="img">
                     </div>
+                </div>
+                <div id="login">
+
                 </div>
             </div>
         </section>
@@ -695,5 +723,8 @@
 
     <!-- bootstrap js cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- JavaScript file -->
+    <script src="js/app.js"></script>
 </body>
 </html>
